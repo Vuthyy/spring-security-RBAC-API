@@ -1,0 +1,14 @@
+spring:
+  application:
+    name:
+      securing-RESTful-API
+
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://10.123.0.125:5432/spring-security-auth
+    username: b2b_apps
+    password: B2b@ppuser
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
